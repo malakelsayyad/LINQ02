@@ -16,7 +16,6 @@ namespace Assignment
             return string.Compare(x, y, StringComparison.OrdinalIgnoreCase);
         }
     }
-
     class Product : IComparable<Product>
     {
         public long ProductID { get; set; }
