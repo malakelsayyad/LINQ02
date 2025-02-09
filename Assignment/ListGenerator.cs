@@ -16,7 +16,6 @@ namespace Assignment
             return string.Compare(x, y, StringComparison.OrdinalIgnoreCase);
         }
     }
-
     class Product : IComparable<Product>
     {
         public long ProductID { get; set; }
@@ -33,7 +32,7 @@ namespace Assignment
 
     }
     class Customer
-    {
+    { 
         public string CustomerID { get; set; }
         public string CustomerName { get; set; }
         public string Address { get; set; }

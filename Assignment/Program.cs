@@ -9,7 +9,7 @@ namespace Assignment
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {  
             #region Restriction [Filteration] Operators
 
             //Q01
