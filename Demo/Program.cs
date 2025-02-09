@@ -8,7 +8,7 @@ namespace Demo
     internal class Program
     {
         static void Main()
-        {
+        { 
 
             #region 1.Filteration [Restriction] Operators [Where / OfType]
             //1.Filteration Operators [Where / OfType]

@@ -14,7 +14,6 @@ namespace Demo
             return x.ProductName.Length.CompareTo(y.ProductName.Length);
         }
     }
-
     class ProductComparerNameLength01 : IComparer<string>
     {
         public int Compare(string? x, string? y)
